@@ -1,3 +1,3 @@
-r=int(input())
-area=3.14*r*r
-print("%.2f"%area)
+n=int(input())
+d=3.14*(pow(n,2))
+print(d)

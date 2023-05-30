@@ -1,9 +1,8 @@
-a=int(input())
-d=str(a)
-e=len(d)
-x=pow(10,e)
-f=a*a
-if f%x==a:
+n=int(input())
+e=n*n
+d=len(str(n))
+f=pow(10,d)
+if e%f==n:
     print('Automorphic Number')
 else:
-   print('Not an Automorphic Number')
+    print('Not an Automorphic Number')

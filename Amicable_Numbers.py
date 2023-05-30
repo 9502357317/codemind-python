@@ -8,8 +8,7 @@ for i in range(1,a):
 for j in range(1,b):
     if b%j==0:
         p=p+j
-if a==p and b==s:
+if s==b and p==a:
     print('Amicable')
 else:
     print('Not Amicable')
-    

@@ -1,4 +1,3 @@
 n=int(input())
-d=str(n)
-e=max(d)
-print(e)
+d=max(str(n))
+print(d)
